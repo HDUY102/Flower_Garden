@@ -1,5 +1,5 @@
 import React from 'react'
-import style from "@/app/style/Header.module.css";
+import style from "@/app/style/HomeSection.module.css";
 
 const HomeSection = () => {
   return (
@@ -14,7 +14,9 @@ const HomeSection = () => {
                 saepe quidem distinctio, ea doloremque 
                 quaerat qui iste aliquid.
             </p>
-            <a href='#' className=''>shop now</a>
+            <div className={style.shopnow}>
+              <a href='#'>shop now</a>
+            </div>
         </div>
     </section>
   )
