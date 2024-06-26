@@ -1,11 +1,9 @@
 .section{
-    padding: 2rem 9;
+    padding: 1rem 9;
     display: flex;
     align-items: center;
-    min-height: 100vh;
-    animation-duration: 1s;
+    min-height: 90vh;
     background: url('/img4.jpg') no-repeat;
-    background: url('/img3.jpg') no-repeat;
     background-size: cover;
     background-position: center;
     justify-content: center;

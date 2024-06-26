@@ -2,6 +2,7 @@ import Image from "next/image";
 import Header from "./components/Header";
 import Slider from "./components/Slider";
 import HomeSection from "./components/HomeSection";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
     <div>
       <Header/>
       <HomeSection/>
+      <Footer/>
       {/* <Slider/> */}
     </div>
   );

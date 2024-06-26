@@ -1,0 +1,24 @@
+.footer{
+    background-color: #fff;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(47rem,2fr));
+    gap: 5rem;
+    align-items: flex-start;
+}
+
+.box h3{
+    text-transform: uppercase;
+    color: black;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.box a, .box p{
+    text-transform: lowercase;
+    padding: 1.3rem 0;
+    font-size: 1.5rem;
+    /* color: var(--light-color); */
+}
