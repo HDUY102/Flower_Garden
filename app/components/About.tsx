@@ -5,12 +5,12 @@ const About = () => {
   return (
     <section className={style.about}>
       <h1 className={style.heading}><span>about</span> us </h1>
-      <div className="row">
-        <div className={style.video_cotain}>
-          <video src='/video/video_flower.mp4' loop autoPlay muted></video>
+      <div className={style.row}>
+        <div className={style.video_cotainer}>
+          <video src='/video/video_flower1.mp4' loop autoPlay muted></video>
           <h3>best flower sellers</h3>
         </div>
-        <div>
+        <div className={style.content}>
           <h3>Why choose us?</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, 
             iusto quisquam. Dolores odio sapiente consectetur dolorem vero 
