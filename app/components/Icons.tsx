@@ -9,28 +9,28 @@ const Icons = () => {
             <GrDeliver className={style.icon}/>
             <div className={style.content}>
                 <h3>Free Delivery</h3>
-                <h4>On All Orders</h4>
+                <span>On All Orders</span>
             </div>
         </div>
         <div className={style.cardicon}>
             <GrCurrency className={style.icon}/>
             <div className={style.content}>
                 <h3>10 Days Returns</h3>
-                <h4>Moneyback Guarantee</h4>
+                <span>Moneyback Guarantee</span>
             </div>
         </div>
         <div className={style.cardicon}>
             <GrGift className={style.icon}/>
             <div className={style.content}>
                 <h3>Offer & Gifts</h3>
-                <h4>On All Orders</h4>
+                <span>On All Orders</span>
             </div>
         </div>
         <div className={style.cardicon}>
             <GrCreditCard className={style.icon}/>
             <div className={style.content}>
                 <h3>Secure Payments</h3>
-                <h4>Protected By Paypal</h4>
+                <span>Protected By Paypal</span>
             </div>
         </div>
     </div>
