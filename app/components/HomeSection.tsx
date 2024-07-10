@@ -16,7 +16,7 @@ const HomeSection = () => {
     //     </Carousel.Item>
     //   ))}
     // </Carousel>
-    <section className={style.section}>
+    <section id="home" className={style.section}>
         <div className={style.content}>
             <h3>Fresh Flowers</h3>
             <span>natural & beautiful flowers</span>
